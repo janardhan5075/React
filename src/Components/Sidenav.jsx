@@ -9,8 +9,9 @@ function Sidenav() {
       <Link to={"/dashboard"}><li>Dashboard</li></Link>
       <Link to={"/benj"}><li>Bikes</li></Link>
       <Link to={"/car"}><li>Cars</li></Link>
+      <Link to={"/scooty"}><li>Scooty</li></Link>
       
-      <li>Bmw</li>
+     
      </ul>
      
      <div>

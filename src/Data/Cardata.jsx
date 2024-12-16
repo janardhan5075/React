@@ -1,119 +1,222 @@
 export const Cardata = [
+    {
+      id: 5,
+      Image: "https://imgd.aeplcdn.com/600x337/n/f0hqqsa_1477539.jpg?q=80",
+      price: "9.50 Crore",
+      brand: "Rolls-Royce",
+      model: "Rolls-Royce Phantom",
+      engine: "6749 cc",
+      fueltype: "petrol",
+      transmission: "Automatic",
+    },
+    {
+      id: 9,
+      Image: "https://imgd.aeplcdn.com/600x337/n/h45ddcb_1704743.jpg?q=80",
+      price: "8.89 Crore",
+      brand: "Lamborghini",
+      model: "Lamborghini Revuelto",
+      engine: "6498 cc",
+      fueltype: "Hybrid",
+      transmission: "Automatic",
+    },
+    {
+      id: 10,
+      Image: "https://imgd.aeplcdn.com/600x337/n/wvt06eb_1772125.png?q=80",
+      price: " 63.90 Lakh",
+      brand: "Kia",
+      model: "Kia Carnival",
+      engine: "2151 cc",
+      fueltype: "Diesel",
+      transmission: "Automatic",
+    },
   
     {
-        id : 1,
-        Image :"https://imgd.aeplcdn.com/664x374/n/cw/ec/152943/q8-e-tron-exterior-right-front-three-quarter-5.jpeg?isig=0&q=80",
-        price : "1.15  Crore",
-        brand : "Audi Q8 e-tron",
-        fueltype:"Electric",
-        milege :"95 kWh, Electric, Automatic, 491 km",
-       
+      id: 12,
+      Image: "https://imgd.aeplcdn.com/600x337/n/8tgupsa_1476818.jpg?q=80",
+      price: "1.48 Crore",
+      brand: "Porsche",
+      model: "Porsche 718",
+      engine: "3996 cc",
+      fueltype: "Petrol",
+      transmission: "Automatic",
     },
     {
-        id : 2,
-        Image :"https://imgd.aeplcdn.com/664x374/n/cw/ec/130583/hector-exterior-right-front-three-quarter-75.jpeg?isig=0&q=80",
-        price : " 17.73 Lakh",
-        brand : "MG Hector",
-        fueltype:"Petrol",
-        milege :"95 kWh, Electric, Automatic, 491 km",
-       
+      id: 7,
+      Image: "https://imgd.aeplcdn.com/600x337/n/64nn4bb_1697927.jpg?q=80",
+      price: " 78.50 Lakh",
+      brand: "Mercedes-Benz ",
+      model: "Mercedes-Benz GLE",
+      engine: "2999 cc",
+      fueltype: "Hybrid & disel",
+      transmission: "Automatic",
     },
     {
-        id : 3,
-        Image :"https://imgd.aeplcdn.com/664x374/n/cw/ec/175993/kushaq-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80",
-        price : "10.89 Lakh",
-        brand : "Skoda Kushaq",
-        fueltype:"Petrol",
-        milege :"19.76 kmph",
-       
+      id: 15,
+      Image:
+        "https://imgd.aeplcdn.com/664x374/n/cw/ec/107543/brezza-exterior-right-front-three-quarter-7.jpeg?isig=0&q=80",
+      price: " 8.34 Lakh",
+      brand: "Maruti Suzuki",
+      model: "Maruti Brezza",
+      engine: "1462 cc",
+      fueltype: "Petrol & CNG",
+      transmission: "Manual & Automatic",
+    },
+  
+    {
+      id: 2,
+      Image: "https://imgd.aeplcdn.com/600x337/n/sykoo0b_1636753.jpg?q=80",
+      price: " 17.50 Lakh",
+      brand: "MG",
+      model: "MG Hector Plus ",
+      engine: "1956 cc",
+      fueltype: "petrol & diesel",
+      transmission: "Manual & Automatic",
     },
     {
-        id : 4,
-        Image :"https://imgd.aeplcdn.com/664x374/n/cw/ec/128413/scorpio-exterior-right-front-three-quarter-47.jpeg?isig=0&q=80",
-        price : "13.62 Lakh",
-        brand : "Mahindra Scorpio S MT 7STR",
-        fueltype:"Diese",
-        milege :"95 kWh, Electric, Automatic, 491 km",
-       
+      id: 1,
+      Image:
+        "https://imgd.aeplcdn.com/664x374/n/cw/ec/141373/q3-sportback-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80",
+      price: "54.76 Lakh",
+      brand: "Audi",
+      model: "Audi Q3 Sportback",
+      engine: "1984 cc",
+      fueltype: "petrol",
+      transmission: "Automatic",
     },
     {
-        id : 5,
-        Image :"https://imgd.aeplcdn.com/664x374/n/cw/ec/170173/dzire-2024-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80",
-        price : "70,00000",
-        brand : "Maruti Dzire",
-       
+      id: 6,
+      Image: "https://imgd.aeplcdn.com/600x337/n/7b50qsa_1476923.jpg?q=80",
+      price: "3.50 Crore",
+      brand: "Ferrari",
+      model: "Ferrari Portofino",
+      engine: "3855 cc",
+      fueltype: "petrol",
+      transmission: "Automatic",
     },
     {
-        id : 6,
-        Image :"https://imgd.aeplcdn.com/664x374/n/cw/ec/170173/dzire-2024-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80",
-        price : "70,00000",
-        brand : "Maruti Dzire",
-       
-    }, 
-    {
-        id : 7,
-        Image :"https://imgd.aeplcdn.com/664x374/n/cw/ec/170173/dzire-2024-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80",
-        price : "70,00000",
-        brand : "Maruti Dzire",
-       
-    }, 
-    {
-        id : 8,
-        Image :"https://imgd.aeplcdn.com/664x374/n/cw/ec/170173/dzire-2024-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80",
-        price : "70,00000",
-        brand : "Maruti Dzire",
-       
+      id: 3,
+      Image:
+        "https://imgd.aeplcdn.com/664x374/n/cw/ec/108971/mc20-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80",
+      price: "3.65 Crore",
+      brand: "Maserati",
+      model: "Maserati MC20",
+      engine: "3000 cc",
+      fueltype: "petrol",
+      transmission: "Automatic",
     },
-     {
-        id : 9,
-        Image :"https://imgd.aeplcdn.com/664x374/n/cw/ec/170173/dzire-2024-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80",
-        price : "70,00000",
-        brand : "Maruti Dzire",
-       
-    }, 
+  
     {
-        id : 10,
-        Image :"https://imgd.aeplcdn.com/664x374/n/cw/ec/170173/dzire-2024-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80",
-        price : "70,00000",
-        brand : "Maruti Dzire",
-       
+      id: 8,
+      Image:
+        "https://imgd.aeplcdn.com/664x374/n/cw/ec/135681/xm-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80",
+      price: " 2.60 Crore",
+      brand: "BMW",
+      model: "BMW XM",
+      engine: "4395 cc",
+      fueltype: "Hybrid",
+      transmission: "Automatic",
     },
     {
-        id : 11,
-        Image :"https://imgd.aeplcdn.com/664x374/n/cw/ec/170173/dzire-2024-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80",
-        price : "70,00000",
-        brand : "Maruti Dzire",
-       
+      id: 11,
+      Image: "https://imgd.aeplcdn.com/600x337/n/s3knqbb_1693423.jpg?q=80",
+      price: " 15.49 Lakh",
+      brand: "Tata",
+      model: "Tata Safari",
+      engine: "1956 cc",
+      fueltype: "Diesel",
+      transmission: "Manual & Automatic",
+    },
+  
+    {
+      id: 4,
+      Image: "https://imgd.aeplcdn.com/600x337/n/qy7pp0b_1638615.jpg?q=80",
+      price: "13.62 Lakh",
+      model: "Mahindra Thar",
+      brand: "Mahindra",
+  
+      engine: "2184 cc",
+      fueltype: "petrol & diesel",
+      transmission: "Manual & Automatic",
+    },
+  
+    {
+      id: 14,
+      Image:
+        "https://imgd.aeplcdn.com/664x374/n/cw/ec/141125/kwid-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80",
+      price: "4.70 Lakh",
+      brand: "Renault",
+      model: "Renault Kwid",
+      engine: "999 cc",
+      fueltype: "Petrol",
+      transmission: "Manual & Automatic",
     },
     {
-        id : 12,
-        Image :"https://imgd.aeplcdn.com/664x374/n/cw/ec/170173/dzire-2024-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80",
-        price : "70,00000",
-        brand : "Maruti Dzire",
-       
+      id: 16,
+      Image:
+        "https://imgd.aeplcdn.com/664x374/n/cw/ec/44709/fortuner-exterior-right-front-three-quarter-20.jpeg?isig=0&q=80",
+      price: " 33.43 Lakh",
+      brand: "Toyota ",
+      model: "Toyota Fortuner",
+      engine: "2755 cc",
+      fueltype: "Petrol & Diesel",
+      transmission: "Manual & Automatic",
     },
-    
+  
     {
-        id : 13,
-        Image :"https://imgd.aeplcdn.com/664x374/n/cw/ec/170173/dzire-2024-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80",
-        price : "70,00000",
-        brand : "Maruti Dzire",
-       
+      id: 19,
+      Image:
+        "https://imgd.aeplcdn.com/664x374/n/cw/ec/131131/xc60-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80",
+      price: " 69.90 Lakh",
+      brand: "Volvo",
+      model: "Volvo XC60",
+      engine: "1969 cc",
+      fueltype: "Petrol",
+      transmission: "Automatic",
+    },
+  
+    {
+      id: 17,
+      Image:
+        "https://imgd.aeplcdn.com/664x374/n/cw/ec/53123/tiguan-exterior-right-front-three-quarter-4.jpeg?q=80",
+      price: " 35.17 Lakh",
+      brand: "Volkswagen",
+      model: "Volkswagen Tiguan",
+      engine: "1984 cc",
+      fueltype: "Petrol",
+      transmission: "Automatic",
     },
     {
-        id : 14,
-        Image :"https://imgd.aeplcdn.com/664x374/n/cw/ec/170173/dzire-2024-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80",
-        price : "70,00000",
-        brand : "Maruti Dzire",
-       
+      id: 18,
+      Image:
+        "https://imgd.aeplcdn.com/664x374/n/cw/ec/121943/verna-exterior-right-front-three-quarter-101.jpeg?isig=0&q=80",
+      price: "11.00 Lakh",
+      brand: "Hyundai",
+      model: "Hyundai Verna",
+      engine: "1497 cc",
+      fueltype: "Petrol",
+      transmission: "Manual & Automatic",
+    },
+  
+    {
+      id: 20,
+      Image:
+        "https://imgd.aeplcdn.com/664x374/n/cw/ec/48084/mu-x-exterior-right-front-three-quarter-4.jpeg?isig=0&q=80",
+      price: " 8.34 Lakh",
+      brand: "Isuzu",
+      model: "Isuzu MU-X",
+      engine: "1898 cc",
+      fueltype: "Diesel",
+      transmission: "Automatic",
     },
     {
-        id : 14,
-        Image :"https://imgd.aeplcdn.com/664x374/n/cw/ec/170173/dzire-2024-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80",
-        price : "70,00000",
-        brand : "Maruti Dzire",
-       
+      id: 13,
+      Image: "https://imgd.aeplcdn.com/600x337/n/plaj00b_1620361.jpg?q=80",
+      price: "70,00000",
+      brand: "Jeep",
+      model: "Jeep Grand Cherokee",
+      engine: "1995 cc",
+      fueltype: "Petrol",
+      transmission: "Automatic",
     },
-    
-    
-]
+  ];
+  

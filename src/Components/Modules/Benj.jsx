@@ -33,15 +33,17 @@ function Benj() {
             Bikedata.map((e)=>{
            
               return(
+                <Link to={`/benj/${e.id}`}>
                 
-                <div key={'id'} className='ggg border p-2 m-2 bg-dark text-light ' >
+                <div key={'id'} className='ggg border p-2 m-2 ' >
                
                 <img src={e.Image} alt={e.name}/>
+                <h5>{e.brand}</h5>
                 <p>{e.price}</p>
-                <h6>Brand :{e.brand}</h6>
-                 <Link to={"/benj"}><button type='submit' className='btn btn-outline-info '>Add to cart</button></Link>
+               
+               
                 </div>
-                
+                </Link>
                    
                
               )

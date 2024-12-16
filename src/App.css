@@ -226,4 +226,17 @@
     display: flex;
     justify-content: flex-end;
 }
+.header{
+  height: 100px;
+  background-color: aqua;
+}
+.details{
+  height: 400px;
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid coral;
+}
 

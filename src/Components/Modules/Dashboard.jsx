@@ -5,12 +5,14 @@ import Sidenav from '../Sidenav'
 import { Link } from 'react-router-dom'
 import { Cardata } from '../../Data/Cardata'
 import { Bikedata } from '../../Data/Bikedata'
+import { Scootydata } from '../../Data/Scootydata'
 
 
 
 function Dashboard() {
   const display = Cardata.slice(0,4)
   const displayBenz = Bikedata.slice(0,4)
+  const displayScooty = Scootydata.slice(0,4)
   return (
  
     <Row>
@@ -22,22 +24,22 @@ function Dashboard() {
       
        
         <Col sm={10} className="dash-1">
-
-
+        
         
        <div  className='container-fluid d-flex flex-wrap justify-content-around align-items-center' >
 
        {
         displayBenz.map((e)=>{
           return(
+            <Link to={"/benj"}>
             <div key={'id'} className='ggg border p-2 m-2 ' >
             
             <img src={e.Image} alt={e.name} />
            
-            <h5>Brand :{e.brand}</h5>
+            <h5>{e.brand}</h5>
             
             </div>
-            
+            </Link>
           )
           
         })
@@ -65,6 +67,26 @@ function Dashboard() {
       }
        <div className='view'>
        <Link to={"/car"}> <button type='submit'className='btn btn-outline-success'>Viewmore</button></Link>
+      
+       </div>
+      </div>
+
+      <div className='container-fluid d-flex flex-wrap justify-content-around'>
+        {
+        displayScooty.map((e)=>{
+          return(
+            <div key={'id'} className='ggg border p-2 m-2 ' >
+            
+            <img src={e.Image} alt={e.name} />
+           
+            <h5>  {e.brand}</h5>
+            
+            </div>
+          )
+        })
+      }
+       <div className='view'>
+       <Link to={"/"}> <button type='submit'className='btn btn-outline-success'>Viewmore</button></Link>
       
        </div>
       </div>
