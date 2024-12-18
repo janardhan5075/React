@@ -26,14 +26,14 @@ function Benj() {
          
          
     
-          <div className='d-flex flex-wrap justify-content-around'>
+          <div className=' transport d-flex flex-wrap justify-content-around'>
           
           {
             
             Bikedata.map((e)=>{
            
               return(
-                <Link to={`/benj/${e.id}`}>
+                <Link to={`/benj/${e.id}`} className='text-decoration-none'>
                 
                 <div key={'id'} className='ggg border p-2 m-2 ' >
                

@@ -21,7 +21,7 @@ function Bikedetails() {
             <useContext.Provider  value={ cart }>
             <Header />
             </useContext.Provider>
-            <div className='container details my-5 '>
+            <div className='container-fluid details my-5 '>
                 <div className='bike'>
                    
                     <h2>Brand :{Bikedetails.brand}</h2>
@@ -31,9 +31,9 @@ function Bikedetails() {
                     <h5>Engine :{Bikedetails.engine}</h5>
                     <h5>Milege :{Bikedetails.milege}</h5>
                     <h5>Fuel-tank-capacity:{Bikedetails.capacity}</h5>
-                    <button className='btn btn-outline-warning'onClick={()=>setCart(cart+1)}>add to cart</button>
+                    <button className='btn btn-outline-danger'onClick={()=>setCart(cart+1)}>add to cart</button>
                 </div>
-                <div>
+                <div className='bike'>
                     <img src={Bikedetails.Image}alt="" style={{width:"600px"}} />
                 </div>
             </div>

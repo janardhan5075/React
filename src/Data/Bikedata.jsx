@@ -1,7 +1,18 @@
+import myimg1 from '../Components/Assets/Images/hunter.png'
+import myimg2 from '../Components/Assets/Images/duke.png'
+import myimg3 from '../Components/Assets/Images/aprilla.png'
+import myimg4 from '../Components/Assets/Images/mt.png'
+import myimg5 from '../Components/Assets/Images/RE.png'
+import myimg6 from '../Components/Assets/Images/ducati.png'
+import myimg7 from '../Components/Assets/Images/xmr.png'
+import myimg8 from '../Components/Assets/Images/triumph.png'
+import myimg9 from  '../Components/Assets/Images/raider.png'
+import myimg10 from '../Components/Assets/Images/ns.png'
+import myimg11 from '../Components/Assets/Images/bmw.png'
 export const Bikedata = [
     {
       id: 1,
-      Image: "https://imgd.aeplcdn.com/1056x594/n/zy8sseb_1777331.jpg?q=80",
+      Image: myimg1,
       price: "1,49,900",
       brand: "RE Hunter",
       model: "RE Hunter 350",
@@ -15,7 +26,7 @@ export const Bikedata = [
     {
       id: 2,
       Image:
-        "https://imgd.aeplcdn.com/664x374/n/bw/models/colors/ktm-select-model-atlantic-blue-1694407102580.png?q=80",
+        myimg2,
       brand: "KTM ",
       model: "KTM 390 Duke",
       price: "3,13,136",
@@ -28,7 +39,7 @@ export const Bikedata = [
     {
       id: 3,
       Image:
-        "https://imgd.aeplcdn.com/1056x594/n/bw/models/colors/aprilia-select-model-prismatic-dark-1701936161693.png?q=80",
+       myimg3,
       name: " Aprilia RS 457",
       brand: "Aprilia ",
       model: "Aprilia RS 457",
@@ -43,7 +54,7 @@ export const Bikedata = [
     {
       id: 4,
       Image:
-        "https://imgd.aeplcdn.com/1056x594/n/bw/models/colors/yamaha-select-model-metallic-black-dlx-1679650337795.png?q=80",
+      myimg4,
       price: "1,69,207",
       rating: "",
       engine: "998 cc",
@@ -55,7 +66,7 @@ export const Bikedata = [
     },
     {
       id: 5,
-      Image: "https://imgd.aeplcdn.com/1056x594/n/zp6pseb_1777219.jpg?q=80",
+      Image: myimg5,
       brand: "Royal Enfield ",
       model: "Royal Enfield Continental GT 650",
       price: "3,18,418",
@@ -68,7 +79,7 @@ export const Bikedata = [
     {
       id: 6,
       Image:
-        "https://imgd.aeplcdn.com/1056x594/n/bw/models/colors/ducati-select-model-matte-carbon-1661850831978.jpg?q=80",
+       myimg6,
       brand: "Ducati",
       model: "Ducati Panigale V4",
       rating: "",
@@ -81,7 +92,7 @@ export const Bikedata = [
     {
       id: 7,
       Image:
-        "https://imgd.aeplcdn.com/1056x594/n/bw/models/colors/hero-select-model-iconic-yellow-1693300733889.png?q=80",
+         myimg7,
       model: " Hero Karizma XMR",
       brand: " Hero ",
       ratng: "4.6",
@@ -94,7 +105,7 @@ export const Bikedata = [
     {
       id: 8,
       Image:
-        "https://imgd.aeplcdn.com/664x374/n/cw/ec/1/versions/--standard1726556483760.jpg?q=80",
+        myimg8,
       brand: "Triumph",
       model: "Triumph Speed T4 ",
       price: "2,17,159",
@@ -107,7 +118,7 @@ export const Bikedata = [
     {
       id: 9,
       Image:
-        "https://imgd.aeplcdn.com/1056x594/n/bw/models/colors/tvs-select-model-fiery-yellow-1669616320869.png?q=80",
+      myimg9,
       model: "TVS Raider 125",
       brand: "TVS",
       price: "89,366",
@@ -121,7 +132,7 @@ export const Bikedata = [
     {
       id: 10,
       Image:
-        "https://imgd.aeplcdn.com/1056x594/n/bw/models/colors/bajaj-select-model-glossy-ebony-black-1709101661264.png?q=80",
+      myimg10,
       model: " Bajaj Pulsar NS200",
       brand: "Bajaj",
       price: "1,42,060",
@@ -134,7 +145,7 @@ export const Bikedata = [
     {
       id: 11,
       Image:
-        "https://imgd.aeplcdn.com/1056x594/n/bw/models/colors/bmw-select-model-cosmic-black-2-1691153846958.png?q=80",
+        myimg11,
       model: " BMW G310 RR",
       brand: "BMW",
       price: "3,05,000",

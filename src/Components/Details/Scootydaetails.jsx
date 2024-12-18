@@ -25,7 +25,7 @@ function Scootydaetails() {
                 <useContext.Provider  value={ cart }>
                 <Header />
                 </useContext.Provider>
-                <div className='container details my-5 '>
+                <div className='container-fluid details my-5 '>
                     <div className='bike'>
                        
                         <h2>Brand :{Scootydetails.brand}</h2>

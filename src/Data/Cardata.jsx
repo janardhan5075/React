@@ -1,7 +1,8 @@
+import myimg from '../Components/Assets/Images/download (1).png'
 export const Cardata = [
     {
       id: 5,
-      Image: "https://imgd.aeplcdn.com/600x337/n/f0hqqsa_1477539.jpg?q=80",
+      Image: myimg,
       price: "9.50 Crore",
       brand: "Rolls-Royce",
       model: "Rolls-Royce Phantom",

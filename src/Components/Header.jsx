@@ -3,7 +3,9 @@ import  { useContext} from './Details/Bikedetails'
 
 function Header() {
   return (
+   
     <div className='header'>
+
         <h3>header</h3>
        
         <useContext.Consumer>

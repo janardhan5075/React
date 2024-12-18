@@ -2,7 +2,7 @@ import React from 'react'
 import { Cardata } from '../../Data/Cardata'
 import { Col, Row } from 'react-bootstrap'
 import Sidenav from '../Sidenav'
-import { Link } from 'react-router-dom'
+import { Link, Links } from 'react-router-dom'
 
 
 
@@ -37,6 +37,7 @@ function Car() {
         Cardata.map((e)=>{
        
           return(
+            <Link to={`/car/${e.id}`}  className='text-decoration-none'>
             
             <div key={'id'} className='ggg border p-2 m-2  ' >
            
@@ -47,7 +48,7 @@ function Car() {
              <Link to={"/car"}><button type='submit' className='btn btn-outline-success'>Add to cart</button></Link>
             </div>
             
-               
+            </Link>  
            
           )
          

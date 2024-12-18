@@ -22,13 +22,13 @@ function Scooty() {
             <div className="d-flex flex-wrap justify-content-around">
               {Scootydata.map((e) => {
                 return (
-                     <Link to={`/scooty/${e.id}`}>
+                     <Link to={`/scooty/${e.id}`}  className='text-decoration-none'>
                   <div key={"id"} className="ggg border p-2 m-2  ">
                     <img src={e.Image} alt={e.name} />
                     <h5>{e.brand}</h5>
                     <p>₹ {e.price}</p>
 
-                    <Link to={"/scooty"}></Link>
+                    <Link to={"/scooty"}><button type='submit' className='btn btn-outline-success'>Add to cart</button></Link>
                   </div>
                   </Link>
                 );

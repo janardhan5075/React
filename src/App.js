@@ -10,6 +10,7 @@ import Benj from './Components/Modules/Benj';
 import Scooty from './Components/Modules/Scooty';
 import Bikedetails from './Components/Details/Bikedetails';
 import Scootydaetails from './Components/Details/Scootydaetails';
+import Cardetails from './Components/Details/Cardetails';
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
           <Route path='/scooty'element={<Scooty />}/>
           <Route path='/benj/:id'element={<Bikedetails/>}/>
           <Route path='/scooty/:id'element={<Scootydaetails />}/>
-          <Route path='/Car/:id'element={<Cardaetails />}/>
+          <Route path='/car/:id'element={<Cardetails />}/>
          
         </Routes>
       
